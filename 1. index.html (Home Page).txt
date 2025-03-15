@@ -1,0 +1,42 @@
+1. index.html (Home Page)
+html
+Copy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | UniqueTranslytica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>UniqueTranslytica</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Professional Translation Services</h2>
+            <p>Fast, affordable, and high-quality translations in over 70 languages.</p>
+            <a href="services.html" class="btn">Explore Services</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 UniqueTranslytica. All rights reserved.</p>
+    </footer>
+</body>
+</html>
